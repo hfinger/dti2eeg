@@ -1,12 +1,12 @@
 # Modeling Functional Brain Connectivity: from DTI to EEG
 
-The order and labels of all ROI's are stored in labels_sources.mat
-The order and labels of all electrodes in labels_electrodes.mat
+* The order and labels of all ROI's are stored in the file *labels_sources.mat*
+* The order and labels of all electrodes in the file *labels_electrodes.mat*
 
 ## Structural Connectivity Data
 
-The structural connectivity data obtained from DTI fiber tracking is located in the file [dti/SC.mat](dti/SC.mat).
-The average fiber lengths are stored in file [dti/dist.mat](dti/dist.mat)
+* The structural connectivity data obtained from DTI fiber tracking is located in the file [dti/SC.mat](dti/SC.mat).
+* The average fiber lengths are stored in file [dti/dist.mat](dti/dist.mat)
 
 ## Functional Connectivity Data
 
