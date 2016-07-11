@@ -1,9 +1,10 @@
 # Modeling Functional Brain Connectivity: from DTI to EEG
 
-All data is stored in Matlab files.
+This repository contains Matlab files used in the paper "Modeling of Large-Scale Functional Brain Networks Based on Structural Connectivity from DTI: Comparison with EEG Derived Phase Coupling Networks and Evaluation of Alternative Methods along the Modeling Path" (doi: 10.1371/journal.pcbi.1005025).
 
 * The order and labels of all ROI's are stored in the file [labels_sources.mat](labels_sources.mat)
 * The order and labels of all electrodes in the file [labels_electrodes.mat](labels_electrodes.mat)
+* The matrix plots in the paper were produced by reordering the source ROI's in a modular structure according to the sorting indices in file [sources_plot_order.mat](sources_plot_order.mat)
 
 ## Structural Connectivity Data
 
