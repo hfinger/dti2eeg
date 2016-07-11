@@ -1,5 +1,7 @@
 # Modeling Functional Brain Connectivity: from DTI to EEG
 
+All data is stored in Matlab files.
+
 * The order and labels of all ROI's are stored in the file [labels_sources.mat](labels_sources.mat)
 * The order and labels of all electrodes in the file [labels_electrodes.mat](labels_electrodes.mat)
 
@@ -20,3 +22,11 @@ The dimensions of the corresponding variables are as follows:
 4. Dimension: ROI index (i.e. source connectivity)
 5. Dimension: ROI index (i.e. target connectivity)
 6. Dimension: Frequency in Hz
+
+## Simulated Functional Connectivity
+
+The simulated functional connectivity data is split into the corresponding subfolders depending on what kind of comparison was performed.
+The simulated FC of the reference model can be found in the file [sim_preprocessings/A_Reference.mat](sim_preprocessings/A_Reference.mat)
+* The folder *sim_preprocessings* contains all simulated FC matrices using different SC preprocessing steps (all produced using the SAR model).
+* The folder *sim_models* contains the simulated FC based on the SAR model and the Kuramoto model.
+* The folder *sim_forward_projection* contains simulated FC in electrode space.
